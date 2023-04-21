@@ -57,6 +57,8 @@ You are given an object with names and their coresponding phone numbers that loo
   'Alan Turing': '222-853-5933'
 }
 
+obj['Grace Hopper'] -> 222-303-5938
+
 HR has asked you to change the data to make it easier to print so that it looks like this:
 [
   'Grace Hopper: 222-303-5938',
@@ -64,11 +66,15 @@ HR has asked you to change the data to make it easier to print so that it looks 
   'Alan Turing: 222-853-5933'
 ]
 
+
+Object.keys(obj) -> ['Grace Hopper', 'Ada Lovelace', 'Alan Turing']
+$[obj] [key] returns the value of the object.. need to use bracket notation
 ------------------------------------------------------------------------------------------------ */
 
 const updateNumbers = (obj) => {
   // Solution code here...
-  let newArray = Object.entries(obj).map(([name, number]) => `${name}: ${number}`);
+  let newArray = [];
+  Object.keys(obj).forEach(key => newArray.push(`${key}: ${obj [key]}`));
   return newArray;
 };
 
@@ -147,7 +153,15 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
-  
+  let hasChildren = false;
+  arr.forEach(person => {
+    if (person.name === character) {
+      let values = Object.values(person);
+      values.length === 4 ? hasChildren = true : hasChildren;
+    }
+  });
+  return hasChildren;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
