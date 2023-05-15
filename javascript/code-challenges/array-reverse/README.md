@@ -7,3 +7,4 @@ Write a function called reverseArray which takes an array as an argument. Withou
 ![Reverse Array Whiteboard](../assets/reversearraywhiteboard.jpg)
 
 > Whiteboard was done with instructor Ryan Gallaway in class. Permission to add here.
+
