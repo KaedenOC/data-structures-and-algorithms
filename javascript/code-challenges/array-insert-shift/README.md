@@ -4,6 +4,10 @@ Write a function called `insertShiftArray` which takes in an array and a value t
 
 ## Whiteboard
 
-![Reverse Array Whiteboard](../assets/reversearraywhiteboard.jpg)
+![Reverse Array Whiteboard](../assets/dsa02.jpg)
 
-> Whiteboard was done with
+> Whiteboard was done with Reece Renninger.
+
+## Approach and Efficiency
+
+- find the middle index. Store the value.
