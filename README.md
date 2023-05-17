@@ -26,4 +26,4 @@ To run your tests
 - [array-insert-shift](./javascript/code-challenges/array-insert-shift/README.md)
 
 
-- [array-binary-search]()
+- [array-binary-search](./javascript/code-challenges/array-binary-search/README.md)
