@@ -24,3 +24,6 @@ To run your tests
 - [Reverse Array](./javascript/code-challenges/array-reverse/README.md)
 
 - [array-insert-shift](./javascript/code-challenges/array-insert-shift/README.md)
+
+
+- [array-binary-search]()
