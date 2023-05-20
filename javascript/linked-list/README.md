@@ -18,3 +18,7 @@ Can properly return a collection of all the values that exist in the linked list
 ## Solution
 
 `npm test linked-list.test.js`
+
+## Collaboration
+
+Reference to demo code as well as reading material from linked list readings.
