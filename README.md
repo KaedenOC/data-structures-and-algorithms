@@ -27,3 +27,6 @@ To run your tests
 
 
 - [array-binary-search](./javascript/code-challenges/array-binary-search/README.md)
+
+- [linked-list](./javascript/linked-list/README.md)
+
