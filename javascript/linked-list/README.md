@@ -11,7 +11,7 @@ Will return false when searching for a value in the linked list that does not ex
 Can properly return a collection of all the values that exist in the linked list
 
 
-### Approach & Efficiency
+## Approach & Efficiency
 
 ![Big O](../code-challenges/assets/dsa05bigO.jpg)
 
