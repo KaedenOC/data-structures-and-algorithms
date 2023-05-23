@@ -44,3 +44,17 @@ adds a new node with the given new value immediately after the first node that h
 
 
 ![UML 06](../code-challenges/assets/dsa06uml.jpg)
+
+## Challenge 07
+
+Write the following method for the Linked List class:
+
+### kth from end
+
+- argument: a number, k, as a parameter.
+
+- Return the node’s value that is k places from the tail of the linked list.
+
+## Whiteboard 07
+
+![UML 07](../code-challenges/assets/dsa07.jpg)
