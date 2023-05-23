@@ -74,5 +74,53 @@ describe('Linked List', () => {
     list.append('c');
     list.traversal();
   });
+});
 
+describe('LinkedList', () => {
+  let list;
+
+  beforeEach(() => {
+    list = new LinkedList();
+    list.append(1);
+    list.append(3);
+    list.append(8);
+    list.append(2);
+  });
+
+  // Test case: Where k is greater than the length of the linked list
+  it('should return null when k is greater than the length of the list', () => {
+    const k = 5;
+    const result = list.kthFromEnd(k);
+    expect(result).toBe(null);
+  });
+
+  // Test case: Where k and the length of the list are the same
+  it('should return the correct value when k and the length of the list are the same', () => {
+    const k = 4;
+    const result = list.kthFromEnd(k);
+    expect(result).toEqual(1);
+  });
+
+  // Test case: Where k is not a positive integer
+  it('should return null when k is not a positive integer', () => {
+    const k = -2;
+    const result = list.kthFromEnd(k);
+    expect(result).toBe(null);
+  });
+
+  // Test case: Where the linked list is of size 1
+  it('should return the correct value when the linked list has only one node', () => {
+    const singleNodeList = new LinkedList();
+    singleNodeList.append('a');
+    const k = 0;
+    const result = singleNodeList.kthFromEnd(k);
+    expect(result).toEqual('a');
+  });
+
+  // Test case: "Happy Path" where k is somewhere in the middle of the linked list
+  it('should return the correct value when k is somewhere in the middle of the linked list', () => {
+    const k = 2;
+    const result = list.kthFromEnd(k);
+    expect(result).toEqual(3);
+  });
 });
