@@ -60,6 +60,44 @@ class LinkedList {
     result += 'NULL';
     return result;
   }
+
+  insertBefore(value, newValue) {
+    if (!this.head) {
+      return; // Empty list, cannot insert before
+    }
+    if (this.head.value === value) {
+      // Insert before the head node
+      let newNode = new Node(newValue);
+      newNode.next = this.head;
+      this.head = newNode;
+      return;
+    }
+
+    let current = this.head;
+    while (current.next) {
+      if (current.next.value === value) {
+        let newNode = new Node(newValue);
+        newNode.next = current.next;
+        current.next = newNode;
+        return;
+      }
+      current = current.next;
+    }
+  }
+
+  insertAfter(value, newValue) {
+    let current = this.head;
+    while (current) {
+      if (current.value === value) {
+        let newNode = new Node(newValue);
+        newNode.next = current.next;
+        current.next = newNode;
+        return;
+      }
+      current = current.next;
+    }
+  }
+
   kthFromEnd(k) {
     if (k < 0 || !Number.isInteger(k) || this.head === null) {
       return null;
