@@ -58,3 +58,19 @@ Write the following method for the Linked List class:
 ## Whiteboard 07
 
 ![UML 07](../code-challenges/assets/dsa07.jpg)
+
+## Challenge 08
+
+- Write a function called zip lists
+
+- Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+
+### linked-list-zip
+
+- Arguments: 2 linked lists
+
+- Return: New Linked List, zipped as noted below
+
+## Whiteboard 08
+
+![UML 08](../code-challenges/assets/dsa08.jpg)
