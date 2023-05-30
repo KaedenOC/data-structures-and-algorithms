@@ -31,3 +31,6 @@ To run your tests
 - [linked-list](./javascript/linked-list/README.md)
 
 - [stacks-and-queues](./javascript/code-challenges/stacks-and-queues/README.md)
+
+-
+[stack-queue-pseudo](./javascript/code-challenges/stack-queue-pseudo/README.md)
