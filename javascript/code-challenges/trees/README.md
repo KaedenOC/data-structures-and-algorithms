@@ -25,11 +25,9 @@ Write the following method for the Binary Tree class
 
 Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
-## Approach & Efficiency
-
-
 ## Collaborations DSA-16
 
+My partner and I worked at separate times but came together just to chat about the overall outcome of the DSA assignment. Also, utilized GPT for some guidance on tests.
 
 ## Whiteboard
 
