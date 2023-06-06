@@ -39,3 +39,5 @@ To run your tests
 - [stack-queue-brackets](./javascript/code-challenges/stack-queue-brackets/README.md)
 
 - [Binary Tree and BST Implementation](./javascript/code-challenges/trees/README.md)
+
+- [Tree-Max](./javascript/code-challenges/trees/README.md)
