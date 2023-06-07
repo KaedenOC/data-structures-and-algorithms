@@ -41,3 +41,5 @@ To run your tests
 - [Binary Tree and BST Implementation](./javascript/code-challenges/trees/README.md)
 
 - [Tree-Max](./javascript/code-challenges/trees/README.md)
+
+- [tree-breadth-traversal](./javascript/code-challenges/tree-breadth-first/README.md)
