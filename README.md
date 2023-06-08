@@ -43,3 +43,5 @@ To run your tests
 - [Tree-Max](./javascript/code-challenges/trees/README.md)
 
 - [tree-breadth-traversal](./javascript/code-challenges/tree-breadth-first/README.md)
+
+- [FizzBuzz Kary Tree](./javascript/code-challenges/README.md)
