@@ -45,3 +45,5 @@ To run your tests
 - [tree-breadth-traversal](./javascript/code-challenges/tree-breadth-first/README.md)
 
 - [FizzBuzz Kary Tree](./javascript/code-challenges/README.md)
+
+- [insertion-sort](./javascript/code-challenges/insertion-sort/README.md)
