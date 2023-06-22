@@ -47,3 +47,5 @@ To run your tests
 - [insertion-sort](./javascript/code-challenges/insertion-sort/README.md)
 
 - [merge-sort](./javascript/code-challenges/merge-sort/README.md)
+
+- [comparison-sort](./javascript/code-challenges/sorting-comparisons/README.md)
