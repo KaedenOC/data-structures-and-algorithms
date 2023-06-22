@@ -20,11 +20,9 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-
 - [Reverse Array](./javascript/code-challenges/array-reverse/README.md)
 
 - [array-insert-shift](./javascript/code-challenges/array-insert-shift/README.md)
-
 
 - [array-binary-search](./javascript/code-challenges/array-binary-search/README.md)
 
@@ -47,3 +45,5 @@ To run your tests
 - [FizzBuzz Kary Tree](./javascript/code-challenges/README.md)
 
 - [insertion-sort](./javascript/code-challenges/insertion-sort/README.md)
+
+- [merge-sort](./javascript/code-challenges/merge-sort/README.md)
