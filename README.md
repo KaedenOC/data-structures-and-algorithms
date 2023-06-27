@@ -49,3 +49,5 @@ To run your tests
 - [merge-sort](./javascript/code-challenges/merge-sort/README.md)
 
 - [comparison-sort](./javascript/code-challenges/sorting-comparisons/README.md)
+
+- [hash-tables](./javascript/code-challenges/hash-table/README.md)
