@@ -1,6 +1,6 @@
 'use strict';
 
-const { HashTable} = require('../index');
+const { HashTable, repeatedWords } = require('../index');
 
 describe('HashTable', () => {
   test('Setting a key/value to your hashtable results in the value being in the data structure', () => {
@@ -47,3 +47,14 @@ describe('HashTable', () => {
 
   // })
 });
+
+
+describe('repeatedWords', () => {
+  test('should return the first repeated word in a string', () => {
+    const string1 = 'Once upon a time, there was a brave princess who...';
+
+    expect(repeatedWords(string1)).toBe('a');
+  });
+});
+
+
