@@ -24,3 +24,20 @@ Implement a HashTable Class:
 - Utiized the lecture to get a good start.
 
 - GPT for help on tests.
+
+## hashmap-repeated-word
+
+- Find the first repeated word in a book.
+
+- Input: string
+- Output: string
+
+## Collabotators
+
+- Emmanuel
+
+- Justin
+
+## Whiteboard
+
+![DSA 31](../assets/dsa31.jpg)
