@@ -51,3 +51,5 @@ To run your tests
 - [comparison-sort](./javascript/code-challenges/sorting-comparisons/README.md)
 
 - [hash-tables](./javascript/code-challenges/hash-table/README.md)
+
+- [tree-intersection](./javascript/code-challenges/treeIntersection/README.md)
