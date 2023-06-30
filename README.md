@@ -53,3 +53,5 @@ To run your tests
 - [hash-tables](./javascript/code-challenges/hash-table/README.md)
 
 - [tree-intersection](./javascript/code-challenges/treeIntersection/README.md)
+
+- [hashmap-left-join](./javascript/code-challenges/hashmap-left-join/README.md)
