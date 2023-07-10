@@ -55,3 +55,9 @@ To run your tests
 - [tree-intersection](./javascript/code-challenges/treeIntersection/README.md)
 
 - [hashmap-left-join](./javascript/code-challenges/hashmap-left-join/README.md)
+
+- [LinkedList-IntOccurence](./javascript/code-challenges/LL-IntOccurence/README.md)
+
+- [tree-inorder-traversal](./javascript/code-challenges/tree-inorder-traversal/README.md)
+
+- [leafWeight-BinaryTree](./javascript/code-challenges/leafWeight-BinaryTree/README.md)
